@@ -1,16 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Hello from "./Hello";
 import LoginForm from './Components/LoginForm/LoginForm';
+import HomePage from './Components/HomePage/HomePage';
 
 function App() {
   return (
-    <>
-      <div>
-     <LoginForm />  
-      </div>
-    </>
-  )
+    <div className="App">
+      <HomePage />
+    </div>
+  );
 }
 
-export default App
+export default App;

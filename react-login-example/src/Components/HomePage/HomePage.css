@@ -1,0 +1,61 @@
+/* HomePage.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.home-page {
+    font-family: "Noto Serif", sans-serif;
+  }
+  h2 {
+    display: inline;
+    justify-content: space-between;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header-left .logo {
+    max-width: 100px;
+  }
+  
+  .header-right .header-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .home-listings {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .home-card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .home-card .home-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .home-card .home-title {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .home-card .home-info {
+    margin-top: 5px;
+    color: #666;
+  }
+  

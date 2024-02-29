@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+ 
 }
-body {
+
+/* body {
   display: flex;
   font-family: 'Noto Sans Display', 'Prata';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   place-items: center;
-  /* min-width: 320px; */
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   background: radial-gradient(#FF5F6D, #FFC371); 
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+} */
